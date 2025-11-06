@@ -30,7 +30,8 @@ Como vamos a enviar debemos usar el método **POST**.
 
 Puedes seguir este ejemplo: {"marca":"Lexus","modelo":"Ls400","anio":1994}
 
-(Crearvehiculo.png)
+<img width="1477" height="541" alt="Crearvehiculo" src="https://github.com/user-attachments/assets/cf3d1cbc-10fd-43a8-8dea-8590bda5e7d4" />
+
 
 **Obtener Vehiculos:** Consultar todos los vehículos (y ver su ruta)
 `http://localhost:8080/api/vehiculos` 
