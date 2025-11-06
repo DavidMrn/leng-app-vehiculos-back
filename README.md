@@ -1,6 +1,6 @@
 # 1.0 Inicio
 
-Este repositorio es acerca de una app hecha con Spring Boot, dictada por el profesor Daniel Felipe Agudelo Molina
+Este repositorio es acerca de una app hecha con Spring Boot, dictada por el profesor [Daniel Felipe Agudelo Molina](https://github.com/DanielDev87)
 Este es el backend de una app para crear vehículos; puedes consultar el Front [aquí](https://github.com/DavidMrn/leng-app-vehiculos-front) 
 ## ⚠️ 1.1 Requisitos
 
