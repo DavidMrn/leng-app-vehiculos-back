@@ -37,26 +37,31 @@ Puedes seguir este ejemplo: {"marca":"Lexus","modelo":"Ls400","anio":1994}
 `http://localhost:8080/api/vehiculos` 
 Como vamos a consultar información cambiamos el método por **GET**
 
-(Obtenertodosvehiculos.png)
+<img width="1477" height="638" alt="Obtenertodosvehiculos" src="https://github.com/user-attachments/assets/27aaddf1-f06a-4a17-83b8-bf6277abe437" />
+
 
 **Obtener Vehículo Por ID:** Especificamos que id o vehículo queremos que nos muestre.
 `http://localhost:8080/api/vehiculos/2` 
 También se usa **GET**.
 
-Obtenervehiculoporid.png
+<img width="1477" height="489" alt="Obtenervehiculoporid" src="https://github.com/user-attachments/assets/581abc39-4c00-4489-8eb1-7241ca906c02" />
+
 
 **Editar Vehículo:** Para editar el vehículo, sus características e imagen. (Usando el ID)
 `http://localhost:8080/api/vehiculos/1`
 Usamos el método **PUT**.
 En este ejemplo solo cambié las mayúsculas por minúsculas (Ten en cuenta que puedes modificar todo)
 
-(editarvehiculo.png)
+<img width="1480" height="553" alt="editarvehiculo" src="https://github.com/user-attachments/assets/911c144d-4bbf-4e8b-837b-0a5e9d21534a" />
+
 
 **Eliminar Vehículo:** Mediante su ID y utilizando el método **DELETE**
 
-(eliminarvehiculo.png)
+<img width="1479" height="383" alt="eliminarvehiculo" src="https://github.com/user-attachments/assets/4ed5eb99-2f37-41e9-95c3-0c7f8a51787b" />
+
 
 ---
+
 ### 2.3 Motos
 
 **Crear Moto**: Para crear moto usamos la ruta: `http://localhost:8080/api/motos` con el método **POST**, ya que vamos a crear o enviar. De igual manera, si queremos consultar las motos más adelante cambiamos el método a **GET** y no enviamos body.
@@ -65,13 +70,13 @@ En este ejemplo solo cambié las mayúsculas por minúsculas (Ten en cuenta que 
 Puedes seguir este ejemplo:
 {"marca": "Ducati", "modelo": "Panigale V4 S", "anio": 2024}
 
+<img width="1475" height="534" alt="crearmoto" src="https://github.com/user-attachments/assets/29ca5d51-4b31-4329-a9a5-d239bd87c586" />
 
-(crearmoto.png)
 
 **Obtener Moto Por ID:** Con la ruta `http://localhost:8080/api/motos/3`
 Obtendremos la moto con el ID número 3. 
 
-(obtenermotoporid.png)
+<img width="1480" height="524" alt="obtenermotoporid" src="https://github.com/user-attachments/assets/101f3b1e-cb05-45bf-9510-fc85e81dbeb7" />
 
 
 **Editar Moto:** 
