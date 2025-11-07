@@ -17,6 +17,11 @@ Este es el backend de una app para crear vehículos; puedes consultar el Front [
 Lo primero que se realiza es la descarga de los archivos del repositorio; para eso puedes ir a el botón verde **"<>Code"** y descargar el **.Zip**
 También puedes clonarlo con [Git](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository). 
 
+Ejecutar Spring Boot de la siguiente manera: Verás que se creó un icono en forma de rombo con símbolo de encendido 
+<img src="docs/images/encendido.png" alt="Encendido" width="30" style="vertical-align:middle;" />, click y entras a su menú, acto seguido ejecutas con el símbolo de dos flechas.
+
+Una vez ejecutado veras en la terminal "SPRING" en ASCII Art. Puedes probar en tu navegador escribir *htpp:localhost:8080/* Si ves **Whitelabel Error Page** no te preocupes, es normal. Es una página para verificar su arranque en caso de no encontrar ruta.
+
 Los métodos serán enviados mediante Postman el cual permite un mejor uso de imágenes.
 
 Para usarlo deberás irte a Postman tus espacios de trabajo (Workspaces) y crear una nueva request mediante el boton **+**
